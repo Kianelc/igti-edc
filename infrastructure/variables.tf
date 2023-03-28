@@ -1,5 +1,5 @@
 variable "base_bucket_name" {
-	default = "datalake_igti_tf"
+	default = "datalake-igti-tf"
 }
 
 variable "ambiente" {

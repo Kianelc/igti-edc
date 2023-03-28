@@ -1,8 +1,9 @@
-name: Deploy
+name: deploy-terraform
 
 on:
 	push:
-		branches: [master]
+		branches:
+      - master
 
 jobs:
 	deploy:

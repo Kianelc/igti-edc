@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "dl" {
     # Parâmetros de configuração do recurso escolhido
-    bucket = "${var.base_bucket_name}_${var.ambiente}"
+    bucket = "${var.base_bucket_name}-${var.ambiente}-${var.numero_conta}"
     acl = "private"
 
     tags = {
